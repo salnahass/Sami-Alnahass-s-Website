@@ -1,0 +1,6 @@
+CREATE TABLE projects (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    Title VARCHAR(255) NOT NULL,
+    Description TEXT,
+    ImageFileName VARCHAR(255)
+);
